@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0; /*margin es el margen de la imagen*/
+    padding: 0; /*margen interno*/
+}
+
+#cabecera{
+    color: #fff;
+    position: fixed;
+    background-color: black;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    
+}
+
+
+.listado__lista{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista__elemento{
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+img{
+    width: 100%;
+    height: 100vh;
+}
